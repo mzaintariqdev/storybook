@@ -1,0 +1,21 @@
+import { Canvas, Meta, Controls, Description, Title, Story } from '@storybook/addon-docs/blocks';
+
+import * as ButtonStories from './Button.stories';
+
+<Meta of={ButtonStories} />
+
+<Title>Button</Title>
+
+<Description>
+Reusable button component with variants, sizes, and disabled state.
+</Description>
+
+## Playground
+
+<Canvas>
+  <Story of={ButtonStories.Playground} />
+</Canvas>
+
+## Controls
+
+<Controls of={ButtonStories.Playground} />
